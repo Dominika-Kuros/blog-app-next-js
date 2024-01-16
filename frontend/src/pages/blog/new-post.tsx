@@ -83,7 +83,7 @@ export default function CreateBlogPostPage() {
           label="Post image"
           register={register("featuredImage", { required: "Required" })}
           type="file"
-          accept="image/jpeg"
+          accept="image/png,image/jpeg"
           error={errors.featuredImage}
         />
         <MarkdownEditor
